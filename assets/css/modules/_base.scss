@@ -1,0 +1,30 @@
+//
+// MARK: - Variables
+//
+
+$white: #FFFFFF;
+$black: #000000;
+
+//
+// MARK: - Functions
+//
+
+@function imagepath($path) {
+  @return '../img/' + $path;
+}
+
+@function fontpath($path) {
+  @return '../font/' + $path;
+}
+
+//
+// MARK: - Mixins
+//
+
+@mixin transform($property) {
+  -o-transform: $property;
+  -ms-transform: $property;
+  -moz-transform: $property;
+  -webkit-transform: $property;
+  transform: $property;
+}

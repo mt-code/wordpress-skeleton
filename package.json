@@ -1,0 +1,23 @@
+{
+  "name": "wordpress-skeleton",
+  "version": "1.0.0",
+  "description": "A skeleton for WordPress projects that comes with SCSS and Gulp.",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "matt@mtcode.co.uk",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babelify": "^10.0.0",
+    "browserify": "^16.2.3",
+    "gulp": "^4.0.1",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.2",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}
