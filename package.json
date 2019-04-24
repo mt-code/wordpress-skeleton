@@ -9,7 +9,7 @@
   "author": "matt@mtcode.co.uk",
   "license": "ISC",
   "devDependencies": {
-    "babel-core": "^6.26.3",
+    "@babel/core": "^7.4.3",
     "babelify": "^10.0.0",
     "browserify": "^16.2.3",
     "gulp": "^4.0.1",
